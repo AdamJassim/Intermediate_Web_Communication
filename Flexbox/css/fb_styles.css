@@ -4,7 +4,49 @@
     --border-radius: 10px;
     --light-txt: #F5F5F5;
 }
-
+body{
+    font-family: "Playwrite DE Grund",cursive;
+    background-color: #B7B7B7;
+    color: #424242;
+    padding: 10px 50px;
+}
+h3, b{
+    color:#068FFF;
+    text-decoration:underline;
+}
+footer{
+    border: 2px solid #ECDFCC;
+    color: #424242;
+    font-size: 0.7rem;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
+section{
+    background-color: #F5F5F5;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid;
+}
+#definition{
+    color: #DC5F00;
+    font-size: 1.1rem;
+}
+.code-example{
+    width: fit-content;
+    padding: 15px;
+    background-color: #ECDFCC;
+}
+.comment{
+    color: gray;
+}
+#playground{
+    background-color:#AFC8AD;
+    min-height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
 p#home-btn {
     background-color: #202940;
     color: var(--light-txt);
