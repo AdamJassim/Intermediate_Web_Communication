@@ -141,6 +141,30 @@ img#exercise-result {
     align-content: center;
 }
 
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flexitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grow{
+    flex-grow: 2;
+}
+.order{
+    order: 5;
+}
+.align-self{
+    align-self: flex-end;
+}
+/*.center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 /* TODO: Complete the Styling */
 

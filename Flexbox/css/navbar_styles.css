@@ -1,0 +1,8 @@
+:root{
+    --green-colot: #4CAF50;
+    --bg-color: #F9F9F9;
+}
+.nav-container{
+    background-color: var(--bg-color);
+    display: flex;
+}
