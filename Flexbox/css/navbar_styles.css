@@ -1,8 +1,35 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+}
 :root{
-    --green-colot: #4CAF50;
+    --green-color: #4CAF50;
     --bg-color: #F9F9F9;
 }
-.nav-container{
+header{
     background-color: var(--bg-color);
+    color: var(--green-color);
     display: flex;
+    /*border: 1px solid black;*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+header p{
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+header > div{
+    /*border: 1px solid red;*/
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    
+}
+header button{
+    background-color: transparent;
+    border: none;
+    color: var(--green-color);
 }
